@@ -54,12 +54,7 @@ function prepareObjects(jsonData) {
     //same result but without variables:
     //animal.name = fullName.substring(0, fullName.indexOf(" "));
     //animal.type = fullName.substring(fullName.lastIndexOf(" "));
-
-    // console.log(fullName);
     console.table(allAnimals);
-    // console.log(animal);
-    // console.log("this is long:", longDescription);
-    // TODO: MISSING CODE HERE !!!
   });
 
   displayList();
